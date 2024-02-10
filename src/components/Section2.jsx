@@ -68,7 +68,7 @@ const Section2 = () => {
           The CubeHouse’ frame is <br /> built primarily using <br />recycled and/ or <br /> biobased materials, <br /> mainly timber originating <br /> from sustainably <br />managed forests.</p>
           </div>
       </div>
-      <div className='container ml-20 mt-20'>
+      <div className='container ml-10 mt-20'>
         <p className='text-[1.3rem] italic font-family-[Borna] '>
         Already convinced?
         </p>
