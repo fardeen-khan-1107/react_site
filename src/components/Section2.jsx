@@ -1,4 +1,10 @@
 import React from 'react'
+import img1 from "../assets/img1.jpg"
+import img2 from "../assets/img2.jpg"
+import img3 from "../assets/img3.png"
+import img4 from "../assets/img4.jpg"
+import img5 from "../assets/img5.jpg"
+import img6 from "../assets/img6.jpg"
 
 const Section2 = () => {
   return (
@@ -6,14 +12,70 @@ const Section2 = () => {
       <div className='ml-8 text-[5rem] leading-none font-family-[Borna]'>
       A unique place to <br/>work at 
       </div>
-      <div className='w-full'>
-        <div className='w-'></div>
-        <div className=''></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <div className='w-full flex h-auto font-family-[Borna] justify-around pl-3  mt-20'>
+        <div className='w-[15%] mt-20'>
+          <img src={img1} alt="img" className='w-11/12 h-2/6' />
+          <p className='text-lg font-medium leading-5 mt-3'>
+          The first hybrid-timber <br /> building at the <br />Amsterdam Zuidas
+          </p>
+          <p  className='text-gl font-medium  leading-5 text-[#a6a6a6] mt-3'>
+          The CubeHouse will be <br /> Paris Proof upon delivery,<br /> certified with a WELL-gold <br /> indoor climate, and <br /> various unique features <br /> promoting sustainability <br /> and well-being.
+          </p>
+        </div>
+        <div className='w-[15%] mt-20'>
+
+        <img src={img2} alt="img" className='w-11/12 h-3/6' />
+          <p className='text-lg font-medium leading-5 mt-3'>
+          Extraordinary rooftop <br />garden  
+          </p>
+          <p  className='text-gl font-medium  leading-5 text-[#a6a6a6] mt-3'>
+          The publicly accessible <br /> rooftop garden boosts <br /> health, wellbeing and <br /> enriches biodiversity of <br />
+           visitors of The  <br />CubeHouse. 
+          </p>
+          </div>
+          <div className='w-[15%] mt-20'>
+          <img src={img3} alt="img" className='w-11/12 h-2/6' />
+          <p className='text-lg font-medium leading-5 mt-3'>
+          Breathe Spaces that <br /> connect inside and <br /> outside
+          </p>
+          <p  className='text-gl font-medium  leading-5 text-[#a6a6a6] mt-3'>
+          Enjoy an abundance of <br />daylight and lush <br /> greenery at the three <br /> Breathe Spaces,<br /> connecting the interior <br />office spaces and the <br /> outdoors.          </p>
+        </div>
+        <div className='w-[15%] mt-20'>
+          <img src={img4} alt="img" className='w-11/12 h-3/6' />
+          <p className='text-lg font-medium leading-5 mt-3'>
+          Publically accessible
+          </p>
+          <p  className='text-gl font-medium  leading-5 text-[#a6a6a6] mt-3'>
+          The publicly accessible <br /> ground floor, The Cube, is <br /> a place for socializing, <br /> collaborating, innovating <br /> and celebrating. </p>
+        </div>
+        <div className='w-[15%] mt-20'>
+
+        <img src={img5} alt="img" className='w-11/12 h-2/6' />
+          <p className='text-lg font-medium leading-5 mt-3'>
+          80% of energy generated from PV- <br />panels
+          </p>
+          <p  className='text-gl font-medium  leading-5 text-[#a6a6a6] mt-3'>
+          The main part of the <br />building’s energy demand <br/> is generated sustainably, <br />with PV-panels on the <br />roofs and parts of the <br /> facade.
+          </p>
+        </div>
+        <div className='w-[15%] mt-20'>
+          <img src={img6} alt="img" className='w-11/12 h-3/6' />
+          <p className='text-lg font-medium leading-5 mt-3'>
+          75% bio-based <br />materials
+          </p>
+          <p  className='text-gl font-medium  leading-5 text-[#a6a6a6] mt-3'>
+          The CubeHouse’ frame is <br /> built primarily using <br />recycled and/ or <br /> biobased materials, <br /> mainly timber originating <br /> from sustainably <br />managed forests.</p>
+          </div>
       </div>
+      <div className='container ml-20 mt-20'>
+        <p className='text-[1.3rem] italic font-family-[Borna] '>
+        Already convinced?
+        </p>
+        <div className='mt-3 bg-[#353535] text-white w-64 py-3 px-10 text-sm rounded-md border-solid broder-black border-2'>
+        <p className='px-7'> available floors</p>
+        </div>
+      </div> 
     </section>
   );
 }
