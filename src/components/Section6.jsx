@@ -7,7 +7,7 @@ const Section6 = () => {
   const [hide1, setHide1] = useState(false);
 
   return (
-    <section className='w-full h-auto'>
+    <section className='w-full h-[120vh]'>
       <div className='text-7xl ml-12 my-32'>
         Connecting the <br />
         Amsterdam Zuidas
