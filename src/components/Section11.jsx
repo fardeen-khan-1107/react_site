@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import img19 from "../assets/img1.jpg";
+import img20 from "../assets/img20.png";
 
 const Section11 = () => {
   const [open, setOpen] = useState(null)
@@ -15,15 +16,6 @@ const Section11 = () => {
   return (
     <section className='w-full h-[1000px] mt-96 bg-[#e5f77d]'>
       <div className='w-full flex'>
-      <div className={`text-3xl font-serif text-[#ccdc6f] hover:text-black duration-200 ${open === 0 ? 'active' : ''}`} onClick={() => operation(0)}>
-              BREEAM EXCELLENT
-            </div>
-            <div className={`text-3xl font-serif text-[#ccdc6f] hover:text-black duration-200 ${open === 1 ? 'active' : ''}`} onClick={() => operation(1)}>
-              BREEAM EXCELLENT
-            </div>
-            <div className={`text-3xl font-serif text-[#ccdc6f] hover:text-black duration-200 ${open === 2 ? 'active' : ''}`} onClick={() => operation(2)}>
-              BREEAM EXCELLENT
-            </div>
         <div className='w-7/12'>
           {open === 0 &&
             <div>
@@ -34,7 +26,7 @@ const Section11 = () => {
         <div className='w-7/12'>
           {open === 1 &&
             <div>
-              <img src={img19} alt="img14" className='w-5/6 h-[800px]' />
+              <img src={img20} alt="img20" className='w-5/6 h-[800px]' />
             </div>
           }
         </div>
@@ -45,6 +37,18 @@ const Section11 = () => {
             </div>
           }
         </div>
+
+          <div className='block w-full'>
+        <div className={`text-3xl font-serif text-[#ccdc6f] hover:text-black duration-200 ${open === 0 ? 'active' : ''}`} onClick={() => operation(0)}>
+              BREEAM EXCELLENT
+            </div>
+            <div className={`text-3xl font-serif text-[#ccdc6f] hover:text-black duration-200 ${open === 1 ? 'active' : ''}`} onClick={() => operation(1)}>
+              BREEAM EXCELLENT
+            </div>
+            <div className={`text-3xl font-serif text-[#ccdc6f] hover:text-black duration-200 ${open === 2 ? 'active' : ''}`} onClick={() => operation(2)}>
+              BREEAM EXCELLENT
+            </div>
+            </div>
 
         {open === 0 &&
               <div className='mt-64'>
