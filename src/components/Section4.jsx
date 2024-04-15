@@ -24,7 +24,6 @@ const Section4 = () => {
         </div>
         
         <div className='w-5/12 mt-10'>
-          <div>
             <div className={`text-3xl font-serif text-[#ccdc6f] hover:text-black duration-200 ${open === 0 ? 'active' : ''}`} onClick={() => operation(0)}>
               BREEAM EXCELLENT
             </div>
@@ -53,7 +52,6 @@ const Section4 = () => {
                 </div>
               </div>
             }
-          </div>
         </div>
       </div>
       <div className='w-full flex'>
