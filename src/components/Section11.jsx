@@ -138,16 +138,6 @@ const Section11 = () => {
 
 
       </div>
-      <div className='w-full flex'>
-        <div className='w-7/12'>
-          {open === 1 &&
-            <div>
-              <img src={img19} alt="img14" className='w-5/6 h-[800px]' />
-              <div className='mt-72'></div>
-            </div>
-          }
-        </div>
-      </div>
     </section>
   );
 }
