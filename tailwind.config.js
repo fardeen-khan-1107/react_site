@@ -19,6 +19,7 @@ module.exports = {
 
       'sm': {'max': '639px'},
       // => @media (max-width: 639px) { ... }
+      'mm': {'max': '412px'},
     },
     extend: {},
     fontFamily: {

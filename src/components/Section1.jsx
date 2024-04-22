@@ -2,9 +2,9 @@ import React from 'react';
 
 const Section1 = () => {
   return (
-    <section className='sub2 w-full  h-[95rem] bg-[#e9fb6d] relative'>
+    <section className='sub2 w-full  h-auto bg-[#e9fb6d] relative'>
       <div className='w-full h-full'>
-        <div className='container pt-20 ml-20 mb-20 w-[40rem] font-family-[Borna] text-8xl text-black'>
+        <div className='pt-20 ml-20 mb-20 w-[40rem] font-family-[Borna] text-8xl text-black sm:text-5xl'>
           The first hybrid-timber building at the Zuidas
         </div>
         <div className='w-full flex mt-20'>

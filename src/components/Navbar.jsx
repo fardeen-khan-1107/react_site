@@ -36,10 +36,10 @@
     ]
     let[open,setopen]=useState(false)
     return (
-      <section className="sub1 w-full cover h-[55rem] ">
-      <video src={video1} autoPlay loop className="absolute w-full h-[55rem] object-cover" />
+      <section className="sub1 w-full cover h-[65rem]  ">
+      <video src={video1} autoPlay loop className="absolute w-full h-[65rem] object-cover sm:w-[639px] sm:h-[110rem]" />
       <div className='flex'>
-      <ul className={` relative top-12 border-2 justify-center w-full  text-sm text-white cursor-pointer transition-all duration-500  ease-linear ${open ?'sm:top-12':'sm:top-[-490px]'}`}>
+      <ul className={` relative top-12  justify-center w-full  text-sm text-white cursor-pointer transition-all duration-500  ease-linear ${open ?'sm:top-12':'sm:top-[-490px]'}`}>
     <div className="w-full sm:block flex">
     {links.map(ups =>
         <li className='w-full  z-10 py-1 sm:text-lg'> 
@@ -54,11 +54,11 @@
       }
     </div>
   </div>  
-  <div className="size-full text-white">
-        <div className="relative  text-[9rem] top-28 ml-[45rem]">The</div>
-        <div className="relative  text-[9rem] top-32">Cube</div>
-        <div className="relative  text-[9rem] top-[5.5rem] ml-[60rem]">House</div>
-        <div className="relative  text-xl top-[8rem] ml-[35rem]">
+  <div className="size-full text-white sm:mt-0 w-full">
+        <div className="relative  text-[10rem] top-28 flex justify-center sm:text-9xl  mm:text-8xl">The</div>
+        <div className="relative  text-[10rem] top-32 flex  justify-start sm:text-9xl sm:top-[15rem] mm:text-8xl mm:top-[15rem]">Cube</div>
+        <div className="relative  text-[10rem] top-[5rem]  flex  justify-end sm:text-9xl sm:top-[20rem] mm:text-8xl mm:top-[25rem]">House</div>
+        <div className="relative  text-xl top-[8rem] sm:top-[23rem] sm:text-lg mm:text-[15px] mm:top-[27rem]  flex justify-center">
           The first hybrid-timber building at the Zuidas
         </div>
       </div>
