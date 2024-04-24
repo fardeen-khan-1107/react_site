@@ -17,7 +17,7 @@ const Section1 = () => {
             backgroundPositionX: 'left',
           }}
         ></div>
-        <div className='w-2/6 pl-24 sm:w-full lg:pl-10'> 
+        <div className='w-2/6 pl-24 lg:pl-12 sm:w-full lg:mt-52'> 
          <div className='text-2xl mt-10 font-family-[GT Alpina Fine] md:w-full sm:text-xl'>
          Creating New Dimensions
          </div>
