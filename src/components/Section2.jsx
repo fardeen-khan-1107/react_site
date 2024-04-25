@@ -12,9 +12,9 @@ const Section2 = () => {
       <div className='ml-8 text-[5rem] leading-none font-family-[Borna] w-[700px] sm:text-4xl sm:w-[300px]'>
         A unique place to work at 
       </div>
-      <div className='w-full flex flex-wrap  font-family-[Borna] justify-around pl-3 mt-20 sm:justify-between'>
-        <div className='w-[15%] sm:w-[45%] mt-20'>
-          <img src={img1} alt="img" className='w-11/12 h-2/6 sm:w-full' />
+      <div className='w-full flex flex-wrap  font-family-[Borna] justify-around pl-3 mt-20 sm:justify-between md:justify-between'>
+        <div className='w-[15%] sm:w-[45%] md:w-[45%] mt-20'>
+          <img src={img1} alt="img" className='w-11/12 h-2/6 sm:w-full md:w-full' />
           <p className='text-lg font-medium leading-5 mt-3 sm:text-[18px] sm:w-40'>
             The first hybrid-timber building at the Amsterdam Zuidas
           </p>
@@ -22,16 +22,16 @@ const Section2 = () => {
             The CubeHouse will be Paris Proof upon delivery, certified with a WELL-gold indoor climate, and various unique features promoting sustainability and well-being.
           </p>
         </div>
-        <div className='w-[15%] sm:w-[45%] mt-20'>
+        <div className='w-[15%] sm:w-[45%] md:w-[45%] mt-20'>
           <img src={img2} alt="img" className='w-11/12 h-3/6 sm:w-full' />
-          <p className='text-lg font-medium leading-5 mt-3'>
+          <p className='text-lg font-medium leading-5 mt-3 md:text-xl'>
             Extraordinary rooftop <br />garden  
           </p>
           <p className='text-gl font-medium leading-5 text-[#a6a6a6] mt-3'>
             The publicly accessible <br /> rooftop garden boosts <br /> health, wellbeing and <br /> enriches biodiversity of <br /> visitors of The <br />CubeHouse. 
           </p>
         </div>
-        <div className='w-[15%] sm:w-[45%] mt-20'>
+        <div className='w-[15%] sm:w-[45%] md:w-[45%] mt-20'>
           <img src={img3} alt="img" className='w-11/12 h-2/6 sm:w-full' />
           <p className='text-lg font-medium leading-5 mt-3'>
             Breathe Spaces that <br /> connect inside and <br /> outside
@@ -40,7 +40,7 @@ const Section2 = () => {
             Enjoy an abundance of <br />daylight and lush <br /> greenery at the three <br /> Breathe Spaces,<br /> connecting the interior <br />office spaces and the <br /> outdoors.          
           </p>
         </div>
-        <div className='w-[15%] sm:w-[45%] mt-20'>
+        <div className='w-[15%] sm:w-[45%] md:w-[45%] mt-20'>
           <img src={img4} alt="img" className='w-11/12 h-3/6' />
           <p className='text-lg font-medium leading-5 mt-3'>
           Publically accessible
@@ -48,7 +48,7 @@ const Section2 = () => {
           <p  className='text-gl font-medium  leading-5 text-[#a6a6a6] mt-3'>
           The publicly accessible <br /> ground floor, The Cube, is <br /> a place for socializing, <br /> collaborating, innovating <br /> and celebrating. </p>
         </div>
-        <div className='w-[15%] sm:w-[45%] mt-20'>
+        <div className='w-[15%] sm:w-[45%] md:w-[45%] mt-20'>
         <img src={img5} alt="img" className='w-11/12 h-2/6' />
           <p className='text-lg font-medium leading-5 mt-3'>
           80% of energy generated from PV- <br />panels
@@ -57,7 +57,7 @@ const Section2 = () => {
           The main part of the <br />building’s energy demand <br/> is generated sustainably, <br />with PV-panels on the <br />roofs and parts of the <br /> facade.
           </p>
         </div>
-        <div className='w-[15%] sm:w-[45%] mt-20'>
+        <div className='w-[15%] sm:w-[45%] md:w-[45%] mt-20'>
           <img src={img6} alt="img" className='w-11/12 h-3/6' />
           <p className='text-lg font-medium leading-5 mt-3'>
           75% bio-based <br />materials
