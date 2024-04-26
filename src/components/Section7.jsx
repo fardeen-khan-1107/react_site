@@ -3,36 +3,36 @@ import img15 from "../assets/img15.jpg"
 
 const Section7 = () => {
   return (
-    <section className='w-full flex mt-52'>
-        <div className='w-5/12'>
-            <img src={img15} alt="img15" className='w-full' />
+    <section className='w-full flex sm:block md:block mt-52 md:mt-[600px]'>
+        <div className='w-5/12 sm:w-full sm:flex sm:justify-center md:w-full md:flex md:justify-center'>
+            <img src={img15} alt="img15" className='w-full sm:w-11/12   md:w-11/12' />
         </div>
-        <div className='w-7/12 pl-32'>
-            <div className='text-6xl'>
+        <div className='w-7/12 pl-32 md:pl-10 sm:w-full sm:pl-5 sm:mt-20 md:w-full md:mt-20'>
+            <div className='text-6xl sm:text-4xl md:text-6xl'>
             Only 8 minute travel <br />
              time to Amsterdam  <br />
              Central
             </div>
-            <div className='text-gl leading-5 pl-72 pt-20'>
-            The CubeHouse is designed with the <br />
-             15-minute City concept in mind. This <br />
-              means that everyone should have <br />
-              access to essential urban services <br />
-               within a 15-minute walk or bike ride. <br />
-                Thanks to its location at the heart of <br />
-                 the Zuidas, The CubeHouse is perfectly <br />
-                 connected. It will only take you 2 <br />
-                  minutes to get to the new Zuidas <br />
-                  Station (by foot); 5 minutes to Schiphol <br />
-                   International Airport (by train) and 8 <br />
-                   minutes to Amsterdam Central Station <br />
-                    (by train). Various shops and <br />
-                    restaurants in the beating heart of the <br />
-                     Zuidas, as well as numerous schools <br />
-                      and universities, are just around the <br />
+            <div className='text-gl w-[320px] leading-5  pt-20'>
+            The CubeHouse is designed with the 
+             15-minute City concept in mind. This 
+              means that everyone should have 
+              access to essential urban services 
+               within a 15-minute walk or bike ride. 
+                Thanks to its location at the heart of 
+                 the Zuidas, The CubeHouse is perfectly 
+                 connected. It will only take you 2 
+                  minutes to get to the new Zuidas 
+                  Station (by foot); 5 minutes to Schiphol 
+                   International Airport (by train) and 8 
+                   minutes to Amsterdam Central Station 
+                    (by train). Various shops and 
+                    restaurants in the beating heart of the 
+                     Zuidas, as well as numerous schools 
+                      and universities, are just around the 
                       corner.
             </div>
-            <div  className='text-gl leading-5 pl-72 pt-10'>
+            <div  className='text-gl leading-5 pt-10'>
             The CubeHouse aligns perfectly with <br />
             the cities plans for the Zuidasdok. This <br />
              plan envisions the Zuidas as <br />
@@ -42,7 +42,7 @@ const Section7 = () => {
                 interconnected.
 
             </div>
-            <div className='mt-7 border-2 w-52 flex justify-center ml-72 py-2 px-12'>
+            <div className='mt-7 border-2 w-52 flex justify-centerpy-2 px-12'>
                 Read more
             </div>
         </div>
