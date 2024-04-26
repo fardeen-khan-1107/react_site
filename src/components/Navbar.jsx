@@ -39,7 +39,7 @@
       <section className="sub1 w-full cover h-[65rem]  ">
       <video src={video1} autoPlay loop className="absolute w-full h-[65rem] object-cover sm:w-[639px] sm:h-[110rem]" />
       <div className='flex'>
-      <ul className={` relative top-12  justify-center w-full  text-sm text-white cursor-pointer transition-all duration-500  ease-linear ${open ?'sm:top-12':'sm:top-[-490px]'}`}>
+      <ul className={` relative top-12 bg-gray-900 shadow-sm bg-opacity-90 justify-center w-full  text-sm text-white cursor-pointer transition-all duration-500  ease-linear ${open ?'sm:top-12':'sm:top-[-490px]'}`}>
     <div className="w-full sm:block flex">
     {links.map(ups =>
         <li className='w-full  z-10 py-1 sm:text-lg'> 

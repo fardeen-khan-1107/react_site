@@ -8,15 +8,15 @@ import img16 from "../assets/img16.jpg"
 const Section9 = () => {
   return (
     <section className='py-20 w-full h-auto bg-[#353535] pb-52'>
-        <div className='text-white ml-10 text-8xl'>
-        Your like-minded  <br />
-        colleagues are <br />
+        <div className='text-white ml-10 text-8xl sm:text-6xl'>
+        Your like-minded  
+        colleagues are
         already here. 
         </div>
         <div className='w-64 mt-20 ml-10 py-3 px-20 bg-white border-2 border-solid border-white'>
             Join today
         </div>
-        <div className=' mt-32 w-full flex justify-around'>
+        <div className=' mt-32 w-full flex justify-around sm:hidden md:hidden'>
             <div className='w-[15%] hover:w-[20%] duration-700   hover:scale-150 hover:mr-20'>
                 <img src={img18} alt="" className='w-full' />
             </div>

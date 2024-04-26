@@ -43,7 +43,7 @@ function Section5() {
               <div className='ml-10 text-xl italic my-10 font-family-[Borna]'>
               The 1st floor
               </div>
-              <div className='ml-10 sm:w-[360px] weight-700 leading-5 text-xl'>
+              <div className='ml-10 w-[360px] sm:w-[360px] weight-700 leading-5 text-xl'>
               The flexible divisible office space 
               located on the first floor includes
               approx. 1,472 square meters LFA. A 
@@ -58,7 +58,7 @@ function Section5() {
                   informal sitting areas to a trendy coffee
                   corner. 
               </div>
-              <div className='ml-10 my-20 sm:w-[360px] weight-700 leading-5 text-xl'>
+              <div className='ml-10 my-20  w-[360px] sm:w-[360px] weight-700 leading-5 text-xl'>
               With a WELL-gold certified indoor 
                climate and unique features, offices  
                located on the first floor truly prioritize 
@@ -76,7 +76,7 @@ function Section5() {
                 Download floorplan
               </div>
             </div>
-          <div className='w-1/2 sm:w-full sm:mt-5'>
+          <div className='w-1/2 sm:w-full sm:mt-5 '>
             <img src={img10} alt="img10" className='w-74 h-5/6  sm:h-[500px] sm:w-[500px]'/>
           </div>
           </div>:null
@@ -118,7 +118,7 @@ function Section5() {
               <div className='ml-10 text-xl italic my-10 font-family-[Borna]'>
               The 2nd floor
               </div>
-              <div className='ml-10 sm:w-[360px] weight-700 leading-5 text-xl'>
+              <div className='ml-10 w-[360px] sm:w-[360px] weight-700 leading-5 text-xl'>
               The flexible divisible office space
                located on the second floor includes
                approx. 1,472 square meters LFA. A 
@@ -133,7 +133,7 @@ function Section5() {
                     informal sitting areas to a trendy coffee
                      corner. 
               </div>
-              <div className='ml-10 my-20 sm:w-[360px] weight-700 leading-5 text-xl'>
+              <div className='ml-10 my-20 w-[360px] sm:w-[360px] weight-700 leading-5 text-xl'>
               With a WELL-gold certified indoor
                climate and unique features, offices
                 located on the second floor truly 
@@ -192,7 +192,7 @@ function Section5() {
               <div className='ml-10 text-xl italic my-10 font-family-[Borna]'>
               The 3nd floor
               </div>
-              <div className='ml-10 sm:w-[360px] weight-700 leading-5 text-xl'>
+              <div className='ml-10 w-[360px] sm:w-[360px] weight-700 leading-5 text-xl'>
               The flexible divisible office space  
               located on the second floor includes 
                approx. 1,472 square meters LFA. A  
@@ -206,7 +206,7 @@ function Section5() {
                     meeting your next deadline – from 
                     informal sitting areas to a trendy coffee 
                      corner.               </div>
-              <div className='ml-10 my-20 sm:w-[360px] weight-700 leading-5 text-xl'>
+              <div className='ml-10 my-20 w-[360px] sm:w-[360px] weight-700 leading-5 text-xl'>
               With a WELL-gold certified indoor 
                climate and unique features, offices 
                 located on the second floor truly prioritize 

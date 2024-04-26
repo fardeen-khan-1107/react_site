@@ -21,12 +21,33 @@ const Section1 = () => {
          <div className='text-2xl mt-10 font-family-[GT Alpina Fine] md:w-full sm:text-xl'>
          Creating New Dimensions
          </div>
-         <div className='text-base font-family-[Borna] mt-8 leading-5 font-normal lg:text-sm'>
-         Offices today are not what they once <br/>used to be. The CubeHouse is a next-<br/>generation office building, designed to<br/> inspire, connect and accelerate <br/>tomorrow’s working world. Our three-<br/>dimensional approach creates spaces <br/>where visitors, businesses and nature <br/>can thrive, proving that sometimes the<br/> best things come from thinking inside <br/>the box.
+         <div className='text-lg w-[300px] sm:w-[230px] font-family-[Borna] mt-8 leading-5 font-normal lg:text-sm'>
+         Offices today are not what they once 
+         used to be. The CubeHouse is a next-
+         generation office building, designed to
+          inspire, connect and accelerate 
+          tomorrow’s working world. Our three-
+          dimensional approach creates spaces 
+          where visitors, businesses and nature 
+          can thrive, proving that sometimes the
+           best things come from thinking inside 
+           the box.
 
          </div>
-         <div className='text-base font-family-[Borna] mt-5 leading-5 font-normal lg:text-sm'>
-         Unwilling to settle for just excelling in<br/> one area, The CubeHouse pushes the <br/>envelope on every front. As the very <br/>first hybrid timber building of the<br/> Zuidas, well-connected to all parts of<br/> the city and publicly accessible, it truly<br/> ticks all the boxes. Add to this a vibrant<br/> entrance, lively rooftop gardens,<br/> integrated breathe spaces and stunning <br/>views and there you have it: a future-<br/>proof office building, empowering users <br/>to reach their full potential day after <br/>day.
+         <div className='text-lg w-[300px] sm:w-[230px]  font-family-[Borna] mt-5 leading-5 font-normal lg:text-sm'>
+         Unwilling to settle for just excelling in
+          one area, The CubeHouse pushes the 
+          envelope on every front. As the very 
+          first hybrid timber building of the
+           Zuidas, well-connected to all parts of
+            the city and publicly accessible, it truly
+             ticks all the boxes. Add to this a vibrant
+              entrance, lively rooftop gardens,
+               integrated breathe spaces and stunning 
+               views and there you have it: a future-
+               proof office building, empowering users 
+               to reach their full potential day after 
+               day.
          </div>
          <div className='mt-10 py-4 px-20 w-72 h-14  bg-[#353535] text-white text-sm border-solid border-2 border-black rounded-[3px]'>
            avaliable floors 
