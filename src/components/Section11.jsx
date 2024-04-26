@@ -1,145 +1,79 @@
-import React, { useState } from 'react';
-import img19 from "../assets/img1.jpg";
-import img20 from "../assets/img20.png";
+import React, { useState } from "react";
 
-const Section11 = () => {
-  const [open, setOpen] = useState(null)
+const Faq = () => {
+    const faqList = [
+        {
+            question: "What is special about comparing rental car deals?",
+            answer:
+                "Comparing rental car deals is important as it helps find the best deal that fits your budget and requirements, ensuring you get the most value for your money. By comparing various options, you can find deals that offer lower prices, additional services, or better car models. You can find car rental deals by researching online and comparing prices from different rental companies.",
+        },
+        {
+            question: "How do I find the car rental deals?",
+            answer:
+                " You can find car rental deals by researching online and comparing prices from different rental companies. Websites such as Expedia, Kayak, and Travelocity allow you to compare prices and view available rental options. It is also recommended to sign up for email newsletters and follow rental car companies on social media to be informed of any special deals or promotions",
+        },
+        {
+            question: "How do I find such low rental car prices?",
+            answer:
+                " Book in advance: Booking your rental car ahead of time can often result in lower prices. Compare prices from multiple companies: Use websites like Kayak, Expedia, or Travelocity to compare prices from multiple rental car companies. Look for discount codes and coupons: Search for discount codes and coupons that you can use to lower the rental price. Renting from an off-airport location can sometimes result in lower prices.",
+        },
+    ];
 
-  const operation = (index) => {
-    if (index === open) {
-      setOpen(null);
-    } else {
-      setOpen(index);
-    }
-  }
-
-  return (
-    <section className='w-full h-[1000px] mt-96 bg-[#e5f77d]'>
-      <div className='w-full flex'>
-        <div className='w-7/12'>
-          {open === 0 &&
-            <div>
-              <img src={img19} alt="img14" className='w-5/6 h-[800px]' />
+    return (
+        <section className="container px-32 mx-auto py-32">
+            <div className="flex flex-col justify-center items-center gap-4">
+                <h4 className="font-semibold text-xl">FAQ</h4>
+                <h2 className="font-bold text-2xl md:text-3xl">
+                    Frequently Asked Questions
+                </h2>
+                <p className="text-center text-gray-400">
+                    Frequently Asked Questions About the Car Rental Booking Process on
+                    Our Website: Answers <br/> to Common Concerns and Inquiries.
+                </p>
             </div>
-          }
+            <div className="shadow-xl w-full mt-10 max-w-3xl mx-auto">
+                {faqList.map((faqItem, index) => (
+                    <FaqCard key={index} {...faqItem} />
+                ))}
+            </div>
+        </section>
+    );
+};
+
+const FaqCard = ({ question, answer }) => {
+    const [isSelected, setSelected] = useState(false);
+
+    const plus = (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className={`w-6 h-6 transform ${isSelected ? 'rotate-45' : 'rotate-0'}`}
+        >
+            <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 4.5v15m7.5-7.5h-15"
+            />
+        </svg>
+    );
+
+    return (
+        <div className="flex flex-col">
+            <button
+                className={`transition-colors duration-100 flex justify-between p-5 w-full ${isSelected ? "bg-orange-600 text-white" : "hover:bg-gray-100"}`}
+                onClick={() => setSelected(!isSelected)}
+            >
+                <p>{question}</p>
+                <span>{plus}</span>
+            </button>
+            <div className={`${!isSelected ? "hidden" : "block"} p-4 w-full`}>
+                {answer}
+            </div>
         </div>
-        <div className='w-7/12'>
-          {open === 1 &&
-            <div>
-              <img src={img20} alt="img20" className='w-5/6 h-[800px]' />
-            </div>
-          }
-        </div>
-        <div className='w-7/12'>
-          {open === 2 &&
-            <div>
-              <img src={img19} alt="img14" className='w-5/6 h-[800px]' />
-            </div>
-          }
-        </div>
+    );
+};
 
-          <div className='block w-full'>
-        <div className={`text-3xl font-serif text-[#ccdc6f] hover:text-black duration-200 ${open === 0 ? 'active' : ''}`} onClick={() => operation(0)}>
-              BREEAM EXCELLENT
-            </div>
-            <div className={`text-3xl font-serif text-[#ccdc6f] hover:text-black duration-200 ${open === 1 ? 'active' : ''}`} onClick={() => operation(1)}>
-              BREEAM EXCELLENT
-            </div>
-            <div className={`text-3xl font-serif text-[#ccdc6f] hover:text-black duration-200 ${open === 2 ? 'active' : ''}`} onClick={() => operation(2)}>
-              BREEAM EXCELLENT
-            </div>
-            </div>
-
-        {open === 0 &&
-              <div className='mt-64'>
-                <div className='text-lg ml-32'>
-                  Rooftop garden
-                </div>
-                <div className='text-lg ml-32 mt-10 leading-5'>
-                  The publicly accessible rooftop garden <br />
-                  adds lush greenery to a rather petrified <br />
-                  Zuidas. Here, tenants and visitors can <br />
-                  enjoy lunch outdoors, surrounded by a <br />
-                  variety of flora and fauna. Apart from <br />
-                  boosting employees’ work pleasure and <br />
-                  well-being, the rooftop garden ensures <br />
-                  coolness when needed and store large <br />
-                  amounts of water (after heavy rain fall). <br />
-                  This combination of greenery and water <br />
-                  storage means that The CubeHouse <br />
-                  will be a climate-adaptive office <br />
-                  complex.
-                </div>
-                <div className='w-80 bg-[#353535] text-white rounded-sm border-2 border-black border-solid px-10 ml-32 mt-10 py-3 flex justify-center'>
-                  Read more
-                </div>
-              </div>
-            }
-
-
-            {open === 1 &&
-              <div className='mt-64'>
-                <div className='text-lg ml-32'>
-                  Rooftop garden
-                </div>
-                <div className='text-lg ml-32 mt-10 leading-5'>
-                  The publicly accessible rooftop garden <br />
-                  adds lush greenery to a rather petrified <br />
-                  Zuidas. Here, tenants and visitors can <br />
-                  enjoy lunch outdoors, surrounded by a <br />
-                  variety of flora and fauna. Apart from <br />
-                  boosting employees’ work pleasure and <br />
-                  well-being, the rooftop garden ensures <br />
-                  coolness when needed and store large <br />
-                  amounts of water (after heavy rain fall). <br />
-                  This combination of greenery and water <br />
-                  storage means that The CubeHouse <br />
-                  will be a climate-adaptive office <br />
-                  complex.
-                </div>
-                <div className='w-80 bg-[#353535] text-white rounded-sm border-2 border-black border-solid px-10 ml-32 mt-10 py-3 flex justify-center'>
-                  Read more
-                </div>
-              </div>
-            }
-
-
-            {open === 2 &&
-              <div className='mt-64'>
-                <div className='text-lg ml-32'>
-                  Rooftop garden
-                </div>
-                <div className='text-lg ml-32 mt-10 leading-5'>
-                  The publicly accessible rooftop garden <br />
-                  adds lush greenery to a rather petrified <br />
-                  Zuidas. Here, tenants and visitors can <br />
-                  enjoy lunch outdoors, surrounded by a <br />
-                  variety of flora and fauna. Apart from <br />
-                  boosting employees’ work pleasure and <br />
-                  well-being, the rooftop garden ensures <br />
-                  coolness when needed and store large <br />
-                  amounts of water (after heavy rain fall). <br />
-                  This combination of greenery and water <br />
-                  storage means that The CubeHouse <br />
-                  will be a climate-adaptive office <br />
-                  complex.
-                </div>
-                <div className='w-80 bg-[#353535] text-white rounded-sm border-2 border-black border-solid px-10 ml-32 mt-10 py-3 flex justify-center'>
-                  Read more
-                </div>
-              </div>
-            }
-
-
-
-
-
-
-
-
-      </div>
-    </section>
-  );
-}
-
-export default Section11;
+export default Faq;

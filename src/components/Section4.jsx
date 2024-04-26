@@ -18,7 +18,7 @@ const Section4 = () => {
   };
 
   return (
-    <section className="w-full h-[1000px] bg-[#e5f77d] mt-48">
+    <section className="w-full h-[1000px] sm:hidden md:hidden  bg-[#e5f77d] mt-48">
       <div className="w-full flex">
         <div className="w-7/12">
           {open === 0 && (
@@ -32,9 +32,9 @@ const Section4 = () => {
           )}
         </div>
 
-        <div className="w-5/12 mt-10">
+        <div className="w-5/12 mt-10  sm:w-full sm:justify-center">
           <div
-            className={`text-4xl font-[GT Alpina Fine] text-[#ccdc6f] hover:text-black duration-200 ${open === 0 ? "active" : ""
+            className={`text-4xl font-[GT Alpina Fine] text-[#ccdc6f] hover:text-black  ${open === 0 ? "active" : ""
               }`}
             onClick={() => operation(0)}>
             BREEAM EXCELLENT
@@ -71,7 +71,7 @@ const Section4 = () => {
           </div>
           {open === 0 && (
             <div className="mt-10">
-              <div className="text-2xl ml-32 font-khan">Rooftop garden</div>
+              <div className="text-2xl ml-32">Rooftop garden</div>
 
               <div className="text-lg ml-32 mt-10 leading-5">
                 The publicly accessible rooftop garden <br />
@@ -95,8 +95,10 @@ const Section4 = () => {
           )}
         </div>
       </div>
+
+
       <div className="w-full flex">
-        <div className="w-7/12">
+        <div className="w-7/12 sm:block">
           {open === 1 && (
             <div>
               <img
