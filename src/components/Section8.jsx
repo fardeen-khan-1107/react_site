@@ -2,8 +2,8 @@ import React from 'react'
 
 const Section8 = () => {
   return (
-    <section className='bg-[#cecdd3] w-full h-full mt-20 py-20'>
-              <div className='flex w-full h-full sm:block md:block'>
+    <section data-scroll data-scroll-speed='.7' className='bg-[#cecdd3] w-full h-full mt-20 py-20'>
+               <div className='flex w-full h-full sm:block md:block'>
                     <div className='w-1/2 text-7xl ml-10'>
                     Become <br /> part of The <br /> CubeHouse 
                     </div>

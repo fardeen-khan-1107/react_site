@@ -36,12 +36,13 @@
     ]
     let[open,setopen]=useState(false)
     return (
-      <section className="sub1 w-full cover h-[65rem]  ">
+      <section data-scroll data-scroll-speed='-.3' className="sub1 w-full cover h-[65rem]">
       <video src={video1} autoPlay loop className="absolute w-full h-[65rem] object-cover sm:w-[639px] sm:h-[110rem]" />
       <div className='flex'>
       <ul className={` relative top-12 sm:bg-[#FFFFFF30] justify-center w-full  text-sm text-white cursor-pointer transition-all duration-500  ease-linear ${open ?'sm:top-12':'sm:top-[-490px]'}`}>
     <div className="w-full sm:block flex">
     {links.map(ups =>
+        // eslint-disable-next-line react/jsx-key
         <li className='w-full  z-10 py-1 sm:text-lg'> 
           <a href="/" className='w-full text-white justify-between '>{ups.name}</a>
         </li>

@@ -3,7 +3,7 @@ import img15 from "../assets/img15.jpg"
 
 const Section7 = () => {
   return (
-    <section className='w-full flex sm:block md:block mt-52 md:mt-[600px]'>
+    <section data-scroll data-scroll-section data-scroll-speed='1.2'  className='w-full flex sm:block md:block mt-52 md:mt-[600px]'>
         <div className='w-5/12 sm:w-full sm:flex sm:justify-center md:w-full md:flex md:justify-center'>
             <img src={img15} alt="img15" className='w-full sm:w-11/12   md:w-11/12' />
         </div>

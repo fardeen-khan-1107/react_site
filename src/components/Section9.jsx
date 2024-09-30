@@ -7,7 +7,7 @@ import img19 from "../assets/img19.jpg"
 import img16 from "../assets/img16.jpg"
 const Section9 = () => {
   return (
-    <section className='py-20 w-full h-auto bg-[#353535] pb-52'>
+    <section data-scroll data-scroll-speed='-.2' className='py-20 w-full h-auto bg-[#353535] pb-52'>
         <div className='text-white ml-10 text-8xl sm:text-6xl'>
         Your like-minded  
         colleagues are

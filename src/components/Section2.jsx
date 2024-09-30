@@ -8,7 +8,7 @@ import img6 from "../assets/img6.jpg";
 
 const Section2 = () => {
   return (
-    <section className='mt-20 w-full h-auto'>
+    <section data-scroll data-scroll-section data-scroll-speed='.2'  className='mt-20 w-full h-auto'>
       <div className='ml-8 text-[5rem] leading-none font-family-[Borna] w-[700px] sm:text-4xl sm:w-[300px]'>
         A unique place to work at 
       </div>

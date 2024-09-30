@@ -18,7 +18,7 @@ const Section4 = () => {
   };
 
   return (
-    <section className="w-full h-[1000px] sm:hidden md:hidden  bg-[#e5f77d] mt-48">
+    <section  data-scroll-section data-scroll-speed='-.10' className="w-full h-[1000px] sm:hidden md:hidden  bg-[#e5f77d] mt-48">
       <div className="w-full flex">
         <div className="w-7/12">
           {open === 0 && (

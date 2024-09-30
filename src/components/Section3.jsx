@@ -6,7 +6,7 @@ import img9 from "../assets/img9.jpg"
 
 const section3 = () => {
   return (
-    <section className='mt-48'>
+    <section data-scroll data-scroll-speed='-.2' className='mt-48'>
         <div className='ml-10 text-7xl font-family-[Borna]'>
         Versatile and fully equipped 
         </div>

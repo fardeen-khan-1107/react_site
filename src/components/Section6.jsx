@@ -7,7 +7,7 @@ const Section6 = () => {
   const [hide1, setHide1] = useState(false);
 
   return (
-    <section className='w-full h-[120vh]'>
+    <section data-scroll data-scroll-section data-scroll-speed='1.2'  className='w-full h-[120vh]  relative -z-10'>
       <div className='text-7xl ml-12 my-32 sm:text-5xl'>
         Connecting the <br />
         Amsterdam Zuidas

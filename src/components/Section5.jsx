@@ -8,7 +8,7 @@ function Section5() {
   const [show1,setshow1]=useState(false)
   const [show2,setshow2]=useState(false)
   return (
-    <section className='my-20'>
+    <section data-scroll data-scroll-section data-scroll-speed='-.4' className='my-20'>
         <div className='ml-12 text-7xl font-family-[Borna] my-20'>
         Available <br /> office spaces 
         </div>
